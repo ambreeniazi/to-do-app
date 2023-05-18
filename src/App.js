@@ -1,14 +1,13 @@
 import React from 'react'
-import "./App.css";
-import Todo from "./components/Todo.jsx";
+import './App.css';
+import ToDoList from './components/ToDoList';
 
-function App() {
+
+ function App() {
   return (
     <div>
-      <Todo/>
+      <ToDoList/>
     </div>
   )
 }
-
 export default App
-
