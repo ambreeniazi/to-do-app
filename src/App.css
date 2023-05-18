@@ -1,6 +1,125 @@
+body{
+  background-image: url(https://media.istockphoto.com/id/1401109426/photo/flowing-water-liquid-freshness-horizontal-movement-bright.jpg?b=1&s=170667a&w=0&k=20&c=f9Ak9bj0gYxxx6I6GEAE1uWx23MxHPTikn2LfhaJ1Ho= );
+  font-size:  cover;
+  font-family: sans-serif;
+  padding:0;
+  margin:0;
+}
 .App {
   text-align: center;
+  justify-content: center;
+  justify-items: center;
+  }
+
+.container{
+   background-color: #282c34;
+   justify-content: center;
+   width: 40%;
+   margin-top: 5% ;
+   text-align: center;
+   padding: 5px;
+   margin-left: 24.5%;
+   color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+
 }
+.heading{
+  margin-top: 10px;
+  font-size: bold;
+}
+input[type=text]{
+  width: 50%;
+  padding: 5px 20px;
+  margin: 20px 0px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 7px;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin-left: -150px;
+}
+button{
+  background-color:rgb(5, 0, 68);
+  text-align: center;
+  padding: 5px 20px;
+  width: 18%;
+  height: 5%;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 8px 2px;
+  cursor: pointer;
+  align-items: center;
+  color: white;
+
+}
+.Add-btn{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 23px 84%;
+  width: 7px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-top: -53px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: -9px 67px; */
+  border-radius: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 7px;
+  padding: 5px 20px;
+  margin-left: 84%;
+  margin-top: -6.5%;
+}
+
+.btn-position{
+  margin-left: 11px;
+  margin-top: 8%;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 24%;
+}
+.btn-position:hover{
+  color: rgb(5, 0, 68);
+  background-color: pink
+}
+
+.listData{
+  border: 2px solid rgb(0, 0, 0);
+  width: 69%;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 7px;
+  font-size: 10px;
+  margin-left: 11%;
+  background-color: white;
+  color: black;
+  display: flex;
+  font-size: 20px;
+  padding: 4px;
+  
+}
+.select{
+  color: purple;
+  display: flex;
+  margin: 18px 340px;
+  margin-top: -10%;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 7px;
+}
+
 
 .App-logo {
   height: 40vmin;
